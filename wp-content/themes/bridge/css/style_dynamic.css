@@ -96,7 +96,7 @@
 			.qode-owl-slider-style .owl-nav .owl-prev:hover .qode-next-icon,
 			.qode-owl-slider-style .owl-nav .owl-prev:hover .qode-prev-icon
 			{
-			color: #ffea00 !important;
+			color: #ffffff !important;
 			}
 			h2 a:hover,
 			h3 a:hover,
@@ -142,7 +142,7 @@
 			.qode-horizontal-timeline .qode-timeline-navigation a.qode-next
 			{
 
-			color: #ffea00;
+			color: #ffffff;
 			}
 
 			.box_image_with_border:hover,
@@ -170,12 +170,12 @@
 						input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
 			.portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover .icons_holder a:hover,
 			.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected{
-			border-color: #ffea00			}
+			border-color: #ffffff			}
 
 			.tt_tabs .tt_tabs_navigation .ui-tabs-active a,
 			.tt_tabs .tt_tabs_navigation li a:hover,
 			.tt_tabs .tt_tabs_navigation li a{
-			border-color: #ffea00 !important;
+			border-color: #ffffff !important;
 			}
 
 			.q_icon_list i,
@@ -255,24 +255,24 @@
 			.no-touch .qode-horizontal-timeline .qode-events-wrapper .qode-events a:hover .circle-outer,
 			.qode-horizontal-timeline .qode-events-wrapper .qode-events a.selected .circle-outer
 			{
-			background-color: #ffea00;
+			background-color: #ffffff;
 			}
 
 
 			.qode-showcase-item-holder.qode-showcase-active .qode-icon-holder.qode-icon-circle{
-			background-color: #ffea00 !important;
+			background-color: #ffffff !important;
 			}
 
 			.q_circles_holder .q_circle_inner2:hover,
 			body:not(.search-results) .blog_holder article.format-link .post_text:hover .post_text_inner,
 			body:not(.search-results) .blog_holder article.format-quote .post_text:hover .post_text_inner {
-			background-color: #ffea00 !important;
-			border-color: #ffea00 !important;
+			background-color: #ffffff !important;
+			border-color: #ffffff !important;
 			}
 
 			.qode-lazy-preloader svg circle,
 			#qode-multi-device-showcase.qode-mds-appear-effect #qode-mds-spinner svg circle {
-			stroke: #ffea00			}
+			stroke: #ffffff			}
 		
 		
 								
@@ -290,10 +290,10 @@
 				.comment_holder .comment #respond input[type='email'],
 				.content .container
 				{
-				background-color:#ffea00;
+				background-color:#ffffff;
 				}
 				.angled-section polygon{
-				fill: #ffea00;
+				fill: #ffffff;
 				}
 				
 											
@@ -302,7 +302,7 @@
 					.header_bottom,
 			.header_top,
 			.fixed_top_header .bottom_header{
-			background-color: rgba(252,234,0,1);
+			background-color: rgba(255,255,255,1);
 			}
 
 			
@@ -337,7 +337,7 @@
 		
 						header.fixed_hiding .q_logo a,
 				header.fixed_hiding .q_logo{
-				max-height: 54px;
+				max-height: 31px;
 				}
 				
 		
@@ -491,10 +491,10 @@
 				
 		
 					.footer_top_holder,	footer #lang_sel > ul > li > a,	footer #lang_sel_click > ul > li > a{
-			background-color: #ffea00;
+			background-color: #ffffff;
 			}
 			footer #lang_sel ul ul a,footer #lang_sel_click ul ul a,footer #lang_sel ul ul a:visited,footer #lang_sel_click ul ul a:visited{
-			background-color: #ffea00 !important;
+			background-color: #ffffff !important;
 			}
 		
 					.footer_top,
@@ -519,7 +519,7 @@
 						
 		
 					.footer_bottom_holder, #lang_sel_footer{
-			background-color:#ffea00;
+			background-color:#ffffff;
 			}
 
 		
@@ -681,7 +681,7 @@
 					.projects_holder article span.text_holder,
 			.projects_masonry_holder .text_holder
 			{
-			background-color: rgba(255,234, 0, 1);
+			background-color: rgba(222,222, 222, 1);
 			}
 																						.projects_holder.hover_text article .hover_feature_holder_title .portfolio_title,
 			.projects_holder.hover_text article .hover_feature_holder_title .portfolio_title a,
@@ -712,11 +712,11 @@
 						
 							.cf7_custom_style_1  input.wpcf7-form-control.wpcf7-submit,
 				.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
-				background-color: rgba(255,234,0,1);border-color: rgba(255,234,0,1);border-width: 0px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-right-radius: 2px;border-bottom-left-radius: 2px;color: #1b1b1b;font-family: Work Sans;font-size: 45px;font-style: normal;font-weight: 500;letter-spacing: 0px;text-transform: none;height: 145px;line-height: 145px;padding: 0 0px;				}
+				background-color: rgba(255,255,255,1);border-color: rgba(255,255,255,1);border-width: 0px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-right-radius: 2px;border-bottom-left-radius: 2px;color: #1b1b1b;font-family: Work Sans;font-size: 45px;font-style: normal;font-weight: 500;letter-spacing: 0px;text-transform: none;height: 145px;line-height: 145px;padding: 0 0px;				}
 			
 							.cf7_custom_style_1  input.wpcf7-form-control.wpcf7-submit:hover,
 				.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover {
-				padding: 0 0px;color: #ffffff;background-color: rgba(255,234,0,1);border-color: rgba(255,234,0,1);				}
+				padding: 0 0px;color: #ffffff;background-color: rgba(255,255,255,1);border-color: rgba(255,255,255,1);				}
 			
 							.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text,
 				.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number,
@@ -887,8 +887,8 @@
 			{
 				color: #1b1b1b; 							font-family: 'Work Sans', sans-serif;
 			
-				border-color: #ffea00; 
-				font-size: 15px; 				line-height: 45px; 				height: 45px; 				font-style: normal; 				font-weight: 500; 				background-color: #ffea00; 				border-radius: 0px; 				-moz-border-radius: 0px; 				-webkit-border-radius: 0px; 				letter-spacing: 0px; 				text-transform: lowercase; 			 border-width: 0px;				padding-left: 50px; padding-right: 50px; 			}
+				border-color: #ffffff; 
+				font-size: 15px; 				line-height: 45px; 				height: 45px; 				font-style: normal; 				font-weight: 500; 				background-color: #ffffff; 				border-radius: 0px; 				-moz-border-radius: 0px; 				-webkit-border-radius: 0px; 				letter-spacing: 0px; 				text-transform: lowercase; 			 border-width: 0px;				padding-left: 50px; padding-right: 50px; 			}
 
 			.qode-qbutton-main-color {
 							font-family: 'Work Sans', sans-serif;
@@ -908,7 +908,7 @@
 			.woocommerce .button:hover
 			{
 			 color: #666666; 
-			 border-color: #ffea00			}
+			 border-color: #ffffff			}
 		
 					.qbutton:hover,
 			#submit_comment:hover,
@@ -921,7 +921,7 @@
 			.woocommerce-page input[type="submit"]:hover,
 			.woocommerce .button:hover
 			{
-			 background-color: #ffea00; 			}
+			 background-color: #ffffff; 			}
 																
 
 						
@@ -958,7 +958,7 @@
 
 .qode-btn.qode-btn-solid:not(.qode-btn-custom-hover-color):hover { color: #666666!important;}
 
-.latest_post_holder.image_on_the_left_boxed .date_hour_holder, .latest_post_holder.image_on_the_left_boxed .featured .read_more:before { background-color: #ffea00;}
+.latest_post_holder.image_on_the_left_boxed .date_hour_holder, .latest_post_holder.image_on_the_left_boxed .featured .read_more:before { background-color: #ffffff;}
 
 
 

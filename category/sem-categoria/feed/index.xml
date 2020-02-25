@@ -8,10 +8,10 @@
 	>
 
 <channel>
-	<title>Luiz C Portfolio | </title>
+	<title>Sem categoria &#8211; Luiz C. Silva Portfolio</title>
 	<atom:link href="https://zuiurac.github.io/luiz.design/category/sem-categoria/feed/" rel="self" type="application/rss+xml" />
 	<link>https://zuiurac.github.io/luiz.design</link>
-	<description>Só mais um site WordPress</description>
+	<description>Designer</description>
 	<lastBuildDate>Mon, 24 Feb 2020 02:45:11 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
@@ -28,9 +28,12 @@
 				<category><![CDATA[Sem categoria]]></category>
 
 		<guid isPermaLink="false">https://zuiurac.github.io/luiz.design/?p=1</guid>
-				<description><![CDATA[Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!]]></description>
+				<description><![CDATA[<p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p>
+<p>O post <a rel="nofollow" href="https://zuiurac.github.io/luiz.design/2020/02/23/ola-mundo/">Olá, mundo!</a> apareceu primeiro em <a rel="nofollow" href="https://zuiurac.github.io/luiz.design">Luiz C. Silva Portfolio</a>.</p>
+]]></description>
 								<content:encoded><![CDATA[
 <p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p>
+<p>O post <a rel="nofollow" href="https://zuiurac.github.io/luiz.design/2020/02/23/ola-mundo/">Olá, mundo!</a> apareceu primeiro em <a rel="nofollow" href="https://zuiurac.github.io/luiz.design">Luiz C. Silva Portfolio</a>.</p>
 ]]></content:encoded>
 							<wfw:commentRss>https://zuiurac.github.io/luiz.design/2020/02/23/ola-mundo/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
