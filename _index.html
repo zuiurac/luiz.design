@@ -150,9 +150,9 @@ img.emoji {
 
 </style>
 <link rel='stylesheet' id='bridge-print-css'  href='https://zuiurac.github.io/luiz.design/jemocej/css/print.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='bridge-style-dynamic-css'  href='https://zuiurac.github.io/luiz.design/jemocej/css/style_dynamic.css?ver=1583389511' type='text/css' media='all' />
+<link rel='stylesheet' id='bridge-style-dynamic-css'  href='https://zuiurac.github.io/luiz.design/jemocej/css/style_dynamic.css?ver=1583624990' type='text/css' media='all' />
 <link rel='stylesheet' id='bridge-responsive-css'  href='https://zuiurac.github.io/luiz.design/jemocej/css/responsive.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='bridge-style-dynamic-responsive-css'  href='https://zuiurac.github.io/luiz.design/jemocej/css/style_dynamic_responsive.css?ver=1583389511' type='text/css' media='all' />
+<link rel='stylesheet' id='bridge-style-dynamic-responsive-css'  href='https://zuiurac.github.io/luiz.design/jemocej/css/style_dynamic_responsive.css?ver=1583624990' type='text/css' media='all' />
 <style id='bridge-style-dynamic-responsive-inline-css' type='text/css'>
 .footer_top.footer_top_full .three_columns > div > .column_inner{
 padding: 0 0 0 100px;
@@ -202,9 +202,10 @@ footer .qode-btn.qode-btn-icon .qode-btn-text{
 /*    background-color: #F5821F !important;*/
     background-color: #da6e11 !important;
 }
-body .portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover h5.portfolio_title a, body .portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover span.project_category{
+body .portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover a h5.portfolio_title, body .portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover span.project_category{
 color:#fff;
 }
+body .portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover a h5.portfolio_title{font-size:45px;text-transform: none;font-weight: 500;}
 body .portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover .portfolio_shader{
     -webkit-transition: none;
     transition: none;
@@ -215,7 +216,7 @@ html{
 #custom_html-4{
 display:none
 }
-body .portfolio_main_holder .item_holder .portfolio_title a, body .portfolio_main_holder .item_holder .project_category, body .projects_holder.hover_text article .hover_feature_holder_title .portfolio_title a{
+body .portfolio_main_holder .item_holder a h5.portfolio_title, body .portfolio_main_holder .item_holder .project_category, body .projects_holder.hover_text article .hover_feature_holder_title a h5.portfolio_title{
 text-transform: none;
 }
 body .portfolio_main_holder article .item_holder.image_subtle_rotate_zoom_hover:hover .portfolio_shader{
@@ -284,32 +285,6 @@ body .footer_top .q_social_icon_holder.normal_social{
 body #back_to_top span i, body #back_to_top span span{
 font-size: 42px;
 }
-@media only screen and (max-width: 1000px){
-/*.header_bottom {
--webkit-box-shadow: 0px 4px 3px 0px rgba(219,219,219,1);
--moz-box-shadow: 0px 4px 3px 0px rgba(219,219,219,1);
-box-shadow: 0px 4px 3px 0px rgba(219,219,219,1);
-}*/
-html body .footer_top .q_social_icon_holder.normal_social {
-    top: 3px;}
-html body.page-id-51 .txttitulo-sobre{padding-top: 57px !important;padding-bottom: 64px !important}
-html body.page-id-51 h3+p{ display: none !important}
-html body.page-id-51 .wpb_text_column+.vc_empty_space{height: 30px !important;}
-html body.page-id-51 h4{margin-bottom: 20px;}
-body .footer_top #custom_html-7 a,body .footer_top #custom_html-2 h6{text-align: center;}
-body .fa-linkedin{margin:0px !important} 
-}
-@media only screen and (min-width: 1040px){
-body .skills{
-margin: -70px 0px 0px !important;
-line-height: 26px !important;
-}
-body .career{margin-top: -35px !important;margin-left: 15px !important}
-body .seta{margin-top: -20px !important;margin-left: 85px !important}
-body #name{margin-top: 20px !important;left: -10px !important;}
-body #lcsilva rs-mask-wrap{top: 50px !important;}
-}
-
 /*acerto bg portifa link*/
 /*bg portifa cinza*/
 .portfolio_main_holder a .item_holder.image_subtle_rotate_zoom_hover:hover .portfolio_shader{
@@ -335,6 +310,47 @@ body #lcsilva rs-mask-wrap{top: 50px !important;}
 /*    background-color: #F5821F !important;*/
     background-color: #da6e11 !important;
 }
+
+@media only screen and (max-width: 1000px){
+/*.header_bottom {
+-webkit-box-shadow: 0px 4px 3px 0px rgba(219,219,219,1);
+-moz-box-shadow: 0px 4px 3px 0px rgba(219,219,219,1);
+box-shadow: 0px 4px 3px 0px rgba(219,219,219,1);
+}*/
+html body .footer_top .q_social_icon_holder.normal_social {
+    top: 3px;}
+html body.page-id-51 .txttitulo-sobre{padding-top: 57px !important;padding-bottom: 64px !important}
+html body.page-id-51 h3+p{ display: none !important}
+html body.page-id-51 .wpb_text_column+.vc_empty_space{height: 30px !important;}
+html body.page-id-51 h4{margin-bottom: 20px;}
+body .footer_top #custom_html-7 a,body .footer_top #custom_html-2 h6{text-align: center;}
+body .fa-linkedin{margin:0px !important} 
+}
+
+//slider home
+@media only screen and (min-width: 1040px){
+body .skills{
+margin: -70px 0px 0px !important;
+line-height: 26px !important;
+}
+body .career{margin-top: -35px !important;margin-left: 15px !important}
+body .seta{margin-top: -20px !important;margin-left: 85px !important}
+body #name{margin-top: 20px !important;left: -10px !important;}
+body #lcsilva rs-mask-wrap{top: 50px !important;}
+}
+
+//acertos slide home
+@media only screen and (min-width: 1500px){
+body .skills{
+margin: -70px 0px 0px !important;
+line-height: 26px !important;
+}
+body .career{margin-top: -35px !important;margin-left: 15px !important}
+body .seta{margin-top: -20px !important;margin-left: 85px !important}
+body #name{margin-top: 20px !important;left: -10px !important;}
+body rs-layer-wrap#lcsilva rs-mask-wrap rs-layer#slider-1-slide-1-layer-1 img{width:943px !important; height:inherit !important; }
+}
+
 </style>
 <link rel='stylesheet' id='js_composer_front-css'  href='https://zuiurac.github.io/luiz.design/sivenot/js_composer/assets/css/js_composer.min.css?ver=6.0.5' type='text/css' media='all' />
 <link rel='stylesheet' id='bridge-style-handle-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C300italic%2C400italic%2C700italic%7CWork+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
@@ -531,7 +547,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 								data-frame_999="o:0;tp:600;st:w;sR:7700;"
 								style="z-index:7;font-family:Work Sans;"
 							>Luiz C.
-<br />Silva 
+<br />Silva<br /> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -636,16 +652,28 @@ desenvolvimento frontend  -
 						
 					});
 				</script>
+				<script>
+					var htmlDivCss = unescape("%0A%40media%20only%20screen%20and%20%28min-width%3A%201500px%29%7B%0Abody%20.skills%7B%0Amargin%3A%20-50px%200px%200px%20%21important%3B%0Aline-height%3A%2036px%20%21important%3B%0Afont-size%3A%2020px%20%21important%3B%0A%7D%0Abody%20.career%7Bmargin-top%3A%20-35px%20%21important%3Bmargin-left%3A%200px%20%21important%3B%20left%3A%20-60px%20%21important%3B%7D%0Abody%20.seta%7Bmargin-top%3A%20-20px%20%21important%3Bmargin-left%3A%2085px%20%21important%7D%0Abody%20%23name%7Bmargin-top%3A%200px%20%21important%3B%20left%3A%20-10px%20%21important%3B%20font-size%3A%20200px%20%21important%3B%20line-height%3A%20210px%20%21important%3B%20top%3A%200px%20%21important%3B%7D%0Abody%20rs-layer-wrap%23lcsilva%20rs-mask-wrap%20rs-layer%23slider-1-slide-1-layer-1%7Bwidth%3A943px%20%21important%3B%20height%3Ainherit%20%21important%3B%20top%3A80px%20%21important%7D%0Abody%20rs-layer%23slider-1-slide-1-layer-2%7B%20top%3A%2090px%20%21important%3B%20right%3A%200px%20%21important%3Bfont-size%3A450px%20%21important%7D%0A%7D");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
 			</rs-module-wrap>
 			<!-- END REVOLUTION SLIDER -->
 </div></div></div></div></div></div><div data-q_header_style="light" class="vc_row wpb_row section vc_row-fluid" style=' text-align:left;'><div class="full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='projects_holder_outer v4 portfolio_no_space portfolio_with_hover_text'><div class='projects_holder portfolio_main_holder clearfix v4 hover_text no_space portfolio_full_image'>
-<a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/ibge/" ><article class='mix portfolio_category_43 portfolio_category_42 portfolio_category_37 portfolio_category_36 portfolio_category_35' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><h5 itemprop="name" class="portfolio_title entry_title" style="font-weight: 500;font-size: 45px;color: #ffffff;text-transform: none;">IBGE</h5><span class="project_category" >Design Gráfico / Ensino / Frontend / UI / UX</span><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="800" height="800" src="https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004.jpg 800w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-768x768.jpg 768w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-500x500.jpg 500w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-700x700.jpg 700w" sizes="(max-width: 800px) 100vw, 800px" /></span></div></div></article></a>
 
-<a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/spoleto/" ><article class='mix portfolio_category_44 portfolio_category_39 portfolio_category_36' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><h5 itemprop="name" class="portfolio_title entry_title" style="font-weight: 500;font-size: 45px;color: #ffffff;text-transform: none;">Spoleto</h5><span class="project_category" >Arquitetura da informação / Direção artística / UI</span><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="601" height="601" src="https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003.jpg 601w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-500x500.jpg 500w" sizes="(max-width: 601px) 100vw, 601px" /></span></div></div></article></a>
+<article class='mix portfolio_category_43 portfolio_category_42 portfolio_category_37 portfolio_category_36 portfolio_category_35' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/ibge/" ><h5 itemprop="name" class="portfolio_title entry_title">IBGE</h5><span class="project_category" >Design Gráfico / Ensino / Frontend / UI / UX</span></a><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="800" height="800" src="https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004.jpg 800w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-768x768.jpg 768w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-500x500.jpg 500w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/ibge8004-700x700.jpg 700w" sizes="(max-width: 800px) 100vw, 800px" /></span></div></div></article>
 
-<a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/dominos-pizza/" ><article class='mix portfolio_category_44 portfolio_category_36 portfolio_category_35' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><h5 itemprop="name" class="portfolio_title entry_title" style="font-weight: 500;font-size: 45px;color: #ffffff;text-transform: none;">Domino&#8217;s Pizza</h5><span class="project_category" >Arquitetura da informação / UI / UX</span><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="800" height="800" src="https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2.jpg 800w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-768x768.jpg 768w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-500x500.jpg 500w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-700x700.jpg 700w" sizes="(max-width: 800px) 100vw, 800px" /></span></div></div></article></a>
+<article class='mix portfolio_category_44 portfolio_category_39 portfolio_category_36' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/spoleto/" ><h5 itemprop="name" class="portfolio_title entry_title">Spoleto</h5><span class="project_category" >Arquitetura da informação / Direção artística / UI</span></a><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="601" height="601" src="https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003.jpg 601w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/spoleto8003-500x500.jpg 500w" sizes="(max-width: 601px) 100vw, 601px" /></span></div></div></article>
 
-<a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/leukos/" ><article class='mix portfolio_category_43 portfolio_category_39 portfolio_category_45 portfolio_category_36 portfolio_category_35' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><h5 itemprop="name" class="portfolio_title entry_title" style="font-weight: 500;font-size: 45px;color: #ffffff;text-transform: none;">Leukos</h5><span class="project_category" >Design Gráfico / Direção artística / Identidade visual / UI / UX</span><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="800" height="800" src="https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002.jpg 800w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-768x768.jpg 768w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-500x500.jpg 500w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-700x700.jpg 700w" sizes="(max-width: 800px) 100vw, 800px" /></span></div></div></article></a>
+<article class='mix portfolio_category_44 portfolio_category_36 portfolio_category_35' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/dominos-pizza/" ><h5 itemprop="name" class="portfolio_title entry_title">Domino&#8217;s Pizza</h5><span class="project_category" >Arquitetura da informação / UI / UX</span></a><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="800" height="800" src="https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2.jpg 800w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-768x768.jpg 768w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-500x500.jpg 500w, https://zuiurac.github.io/luiz.design/fupojus/2020/02/dominos8003-2-700x700.jpg 700w" sizes="(max-width: 800px) 100vw, 800px" /></span></div></div></article>
+
+<article class='mix portfolio_category_43 portfolio_category_39 portfolio_category_45 portfolio_category_36 portfolio_category_35' style=''><div class="item_holder image_subtle_rotate_zoom_hover"><div class="text_holder"><div class="text_holder_outer"><div class="text_holder_inner"><a itemprop="url" href="https://zuiurac.github.io/luiz.design/projeto/leukos/" ><h5 itemprop="name" class="portfolio_title entry_title">Leukos</h5><span class="project_category" >Design Gráfico / Direção artística / Identidade visual / UI / UX</span></a><div class="icons_holder"></div></div></div></div><div style="background-color: #d2d2d2" class="portfolio_shader"></div><div class="image_holder"><span class="image"><img width="800" height="800" src="https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002.jpg 800w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-300x300.jpg 300w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-150x150.jpg 150w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-768x768.jpg 768w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-570x570.jpg 570w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-500x500.jpg 500w, https://zuiurac.github.io/luiz.design/fupojus/2017/03/leukos8002-700x700.jpg 700w" sizes="(max-width: 800px) 100vw, 800px" /></span></div></div></article>
 <div class='filler'></div>
 <div class='filler'></div>
 <div class='filler'></div>
@@ -825,7 +853,7 @@ var _wpmejsSettings = {"pluginPath":"\/LuizPortfolio\/paliluq\/js\/mediaelement\
 <script type='text/javascript' src='https://zuiurac.github.io/luiz.design/jemocej/js/plugins/TweenLite.min.js?ver=5.3.2'></script>
 <script type='text/javascript' src='https://zuiurac.github.io/luiz.design/jemocej/js/plugins/smoothPageScroll.min.js?ver=5.3.2'></script>
 <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDBNo1gB7z4d0LG72OPbmTgYDnd3KIhyws&#038;ver=5.3.2'></script>
-<script type='text/javascript' src='https://zuiurac.github.io/luiz.design/jemocej/js/default_dynamic.js?ver=1583389511'></script>
+<script type='text/javascript' src='https://zuiurac.github.io/luiz.design/jemocej/js/default_dynamic.js?ver=1583624990'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var QodeAdminAjax = {"ajaxurl":"https:\/\/zuiurac.github.io\/luiz.design\/wp-admin\/admin-ajax.php"};
